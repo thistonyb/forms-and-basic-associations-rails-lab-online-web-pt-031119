@@ -29,5 +29,4 @@ class Song < ActiveRecord::Base
       note = self.notes.build(content: content) unless content.empty?
     end
   end
-
 end
